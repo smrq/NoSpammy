@@ -1,0 +1,11 @@
+{
+    "Author": "smrq",
+    "Name": "No Spammy",
+    "Punchline": "Write messages, don't spam them.",
+    "Description": "Runs a command if the same command has not been run recently.",
+    "InternalName": "NoSpammy",
+    "ApplicableVersion": "any",
+    "Tags": [
+        "plugin"
+    ]
+}
