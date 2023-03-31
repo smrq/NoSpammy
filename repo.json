@@ -13,8 +13,8 @@
             "chat"
         ],
         "IconUrl": "https://github.com/smrq/NoSpammy/raw/master/icon.jpg",
-        "DownloadLinkInstall": "https://github.com/smrq/NoSpammy/releases/download/v0.2.4.5/latest.zip",
-        "DownloadLinkTesting": "https://github.com/smrq/NoSpammy/releases/download/v0.2.4.5/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/smrq/NoSpammy/releases/download/v0.2.4.5/latest.zip"
+        "DownloadLinkInstall": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip"
     }
 ]
