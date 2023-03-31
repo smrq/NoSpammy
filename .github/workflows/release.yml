@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Ktisis/
+        working-directory: NoSpammy/
         shell: bash
     env:
       DALAMUD_HOME: /tmp/dalamud
@@ -48,7 +48,7 @@ jobs:
         run: dotnet build -c Release --no-restore --nologo -o ./bin/Release
 
       - name: Generate Checksums
-        working-directory: Ktisis/bin/Release/Ktisis
+        working-directory: NoSpammy/bin/Release/NoSpammy
         run: |
           sha512sum latest.zip >> checksums.sha512
 
@@ -56,8 +56,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            Ktisis/bin/Release/Ktisis/latest.zip
-            Ktisis/bin/Release/Ktisis/checksums.sha512
+            NoSpammy/bin/Release/NoSpammy/latest.zip
+            NoSpammy/bin/Release/NoSpammy/checksums.sha512
           prerelease: false # Releases cant be marked as prereleases as Dalamud wont be able to find them
           append_body: true # Append the release notes to the release body
           body_path: .github/release-notices.md # These notes are automatically added to the release body every time.
@@ -69,8 +69,8 @@ jobs:
         with:
           name: Release Artifacts
           path: |
-            Ktisis/bin/Release/Ktisis/latest.zip
-            Ktisis/bin/Release/Ktisis/checksums.sha512
+            NoSpammy/bin/Release/NoSpammy/latest.zip
+            NoSpammy/bin/Release/NoSpammy/checksums.sha512
 
       - name: Update repo.json
         run: |
