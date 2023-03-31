@@ -6,6 +6,8 @@ Write messages, don't spam them.
 
 `/nospam` - Runs a command if the same command has not been run recently.
 
+`/nospamcfg` - Shows the config window.
+
 ```
 /nospam party Raising <t> <se.9>
 /ac Raise <t>
