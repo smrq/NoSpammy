@@ -16,9 +16,9 @@
         "LoadPriority": 0,
         "LoadRequiredState": 0,
         "LoadSync": false,
-        "DownloadLinkInstall": "https://github.com/smrq/NoSpammy/releases/download/1.0.0.0/NoSpammy.zip",
-        "DownloadLinkTesting": "https://github.com/smrq/NoSpammy/releases/download/1.0.0.0/NoSpammy.zip",
-        "DownloadLinkUpdate": "https://github.com/smrq/NoSpammy/releases/download/1.0.0.0/NoSpammy.zip",
+        "DownloadLinkInstall": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/smrq/NoSpammy/releases/download/v0.0.0.1/latest.zip",
         "IconUrl": "https://raw.githubusercontent.com/smrq/NoSpammy/master/images/icon.jpg"
     }
 ]
