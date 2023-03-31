@@ -9,14 +9,14 @@ namespace NoSpammy
 {
     public sealed class Plugin : IDalamudPlugin
     {
-        public string Name => "No Spammy";
+        public string Name => "NoSpammy";
         private const string CommandName = "/nospam";
         private const string ConfigCommandName = "/nospamcfg";
 
         private DalamudPluginInterface PluginInterface { get; init; }
         private CommandManager CommandManager { get; init; }
         public Configuration Configuration { get; init; }
-        public WindowSystem WindowSystem = new("No Spammy");
+        public WindowSystem WindowSystem = new("NoSpammy");
 
         public Debouncer Debouncer = new Debouncer();
 

@@ -1,6 +1,6 @@
 {
     "Author": "smrq",
-    "Name": "No Spammy",
+    "Name": "NoSpammy",
     "Punchline": "Write messages, don't spam them.",
     "Description": "Runs a command if the same command has not been run recently.",
     "InternalName": "NoSpammy",

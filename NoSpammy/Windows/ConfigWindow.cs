@@ -10,7 +10,7 @@ public class ConfigWindow : Window, IDisposable
     private Configuration configuration;
 
     public ConfigWindow(Plugin plugin) : base(
-        "No Spammy",
+        "NoSpammy",
         ImGuiWindowFlags.AlwaysAutoResize)
     {
         configuration = plugin.Configuration;
