@@ -14,7 +14,7 @@ This is a Dalamud plugin, requiring the use of [FFXIVQuickLauncher](https://gith
 
 ### Repo URL
 
-`https://raw.githubusercontent.com/smrq/NoSpammy/main/repo.json`
+`https://raw.githubusercontent.com/smrq/NoSpammy/master/repo.json`
 
 ## Usage
 
